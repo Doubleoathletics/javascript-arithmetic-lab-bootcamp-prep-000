@@ -29,10 +29,9 @@ function makeInt(n) {
   parseInt(a)
   }
 
-  it('assumes base 10', 
-  function() {
-    parseInt('0x2328', 10)).toEqual(0)
-  })
+function makeInt(n) {
+    parseInt('0x2328', 10)
+  }
 
   it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
