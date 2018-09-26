@@ -24,13 +24,14 @@ function inc(n) {
 function dec(n) {
   return(a -= 1)
 }
-describe('makeInt(n)', function() {
-  it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(a)
-  })
+describe('makeInt(n)', 
+function makeInt(n) {
+  parseInt(a)
+  }
 
-  it('assumes base 10', function() {
-    expect(makeInt('0x2328')).toEqual(0)
+  it('assumes base 10', 
+  function() {
+    parseInt('0x2328', 10)).toEqual(0)
   })
 
   it('returns NaN as appropriate', function() {
