@@ -27,12 +27,10 @@ function dec(n) {
 describe('makeInt(n)', 
 function makeInt(n) {
   parseInt(a)
-  }
-describe('makeInt(n)',
+  })
 function makeInt(n) {
     parseInt('0x2328', 10)
   }
-
   it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
   })
